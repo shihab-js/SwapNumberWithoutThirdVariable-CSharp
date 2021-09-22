@@ -6,7 +6,7 @@ namespace SwapNumberWithoutThirdVariable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
         }
     }
 }
