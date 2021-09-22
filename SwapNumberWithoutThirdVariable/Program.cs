@@ -10,7 +10,7 @@ namespace SwapNumberWithoutThirdVariable
             // 1. using by * and /
             // 2. using by + and -
 
-            //1. using by + and -
+            //1. using by * and /
             int a = 10, b = 15;
 
             //print message to show the user
@@ -20,8 +20,21 @@ namespace SwapNumberWithoutThirdVariable
             b = a / b; // b = 10
             a = a / b; // a = 15
 
-            Console.Write("After swap a = " + a + " and b = " + b);
+            //print result
+            Console.WriteLine("After swap a = " + a + " and b = " + b);
 
+            //2. using by + and -
+            int c = 5, d = 10;
+
+            //print message to show the user
+            Console.WriteLine("Before swap c = " + c + " and d = " + d);
+
+            c = c + d; // c = 15
+            d = c - d; // d = 5
+            c = c - d; // c = 10
+
+            //print result
+            Console.Write("After swap c = " + c + " and d = " + d);
         }
     }
 }
